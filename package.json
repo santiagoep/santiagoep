@@ -1,0 +1,37 @@
+{
+  "name": "santiagoep-website",
+  "version": "1.0.0",
+  "description": "SantiaoEP website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "author": "@SantiagoEP",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "autoprefixer": "^10.4.1",
+    "eslint": "^8.6.0",
+    "eslint-config-next": "12.0.7",
+    "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.1.5",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.9",
+    "typescript": "^4.5.4"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": "eslint --cache --fix"
+  }
+}
