@@ -1,8 +1,8 @@
 {
   "editor.autoIndent": "full",
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
@@ -15,7 +15,5 @@
     "source.fixAll.eslint": true
   },
   "diffEditor.ignoreTrimWhitespace": false,
-  "editor.inlineSuggest.enabled": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 1
+  "editor.inlineSuggest.enabled": true
 }
