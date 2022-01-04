@@ -10,7 +10,7 @@ export const Header = () => {
         rel="noopener noreferrer"
         className="text-sm md:text-base border-2 border-blue-500 py-1 md:py-2 px-3 md:px-4 rounded-full text-blue-500 cursor-pointer hover:bg-blue-500 hover:text-white active:scale-105"
       >
-        Say Hello
+        Contact
       </a>
     </header>
   );
