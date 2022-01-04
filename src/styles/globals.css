@@ -1,3 +1,24 @@
+@import url('https://use.typekit.net/ojv4ekx.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply font-text;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-heading;
+  }
+
+  .custom-general-container {
+    @apply w-full md:max-w-5xl mx-auto px-5;
+  }
+}
