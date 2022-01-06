@@ -1,9 +1,9 @@
 export const Header = () => {
   return (
     <header className="custom-general-container flex justify-between items-center py-4 md:py-5">
-      <div className="text-base md:text-lg font-bold text-blue-500 font-heading">
+      <p className="text-base md:text-lg font-bold text-blue-500 font-heading cursor-default">
         @SantiagoEP
-      </div>
+      </p>
       <a
         href="https://wa.me/573508108761"
         target="_blank"
