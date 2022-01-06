@@ -6,7 +6,11 @@
 
 @layer base {
   * {
-    @apply font-text;
+    @apply font-text text-gray-700;
+  }
+
+  svg * {
+    color: inherit;
   }
 
   h1,
@@ -20,5 +24,20 @@
 
   .custom-general-container {
     @apply w-full md:max-w-5xl mx-auto px-5;
+  }
+
+  .custom-main-gradient-text {
+    background: #374251;
+    background: linear-gradient(to left, #374251 13%, #3c81f6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .custom-curvy-top-border {
+    clip-path: ellipse(90% 100% at 50% 100%);
+  }
+
+  .custom-pill {
+    @apply bg-slate-400 text-white shadow-sm rounded-full py-1 px-2 text-xs m-1 cursor-default;
   }
 }
