@@ -3,9 +3,9 @@ const EXPERIENCE_TIME = new Date().getFullYear() - FIRST_EXPERIENCE_YEAR;
 
 export const CoverLetter = () => {
   return (
-    <section className="bg-blue-500 mt-10 py-10">
+    <section className="bg-blue-500 mt-10 py-10 curvy-top-border">
       <div className="text-center mx-10 md:max-w-2xl md:mx-auto">
-        <h2 className="font-extrabold text-2xl md:text-5xl mt-6 text-white">
+        <h2 className="font-extrabold text-xl md:text-4xl mt-6 text-white">
           Hi, I&apos;m Santiago
         </h2>
         <p className="text-white font-light mt-5 md:text-lg">
