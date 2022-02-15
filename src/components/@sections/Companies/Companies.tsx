@@ -10,7 +10,7 @@ export const Companies: React.FC = () => {
       <h2 className="c_sub-title md:w-1/2 mx-auto">
         I have collaborated with some awesome companies:
       </h2>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-x-24 gap-y-20 md:gap-x-32 md:gap-y-10 mx-32 md:mx-0 mt-16 text-center">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-x-10 gap-y-20 md:gap-x-32 md:gap-y-10 sm:mx-32 md:mx-0 mt-16 text-center">
         {companies.map(({ image }) => (
           <Image
             key={`${image.url}-${image.alt}`}
